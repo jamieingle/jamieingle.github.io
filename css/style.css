@@ -7,12 +7,12 @@ body {
    margin: 0;
  }
 header, footer {
-  background-color: #ffa500;
+  background-color: #606c38;
   text-align: left;
   min-width: 500px;
 }
 header {
-  font-family: Work Sans;
+  font-family: Nunito Sans;
   color: #fff;
   min-height: 100vh;
   display: flex;
@@ -27,9 +27,10 @@ main {
   justify-content: center;
   align-items: stretch;
   align-content: center;
+  font-family: Nunito Sans;
 }
 h1 {
-  font-family: Poppins;
+  font-family: Halant;
   font-size: calc(1em + 3vw);
   padding-bottom: .67em;
   border-bottom: 1px solid;
@@ -37,12 +38,12 @@ h1 {
  }
 
 h2 {
-  font-family: Poppins;
+  font-family: Halant;
   font-size: 18px;
   font-weight: 600;
   letter-spacing: 0.3px;
   text-align: left;
-  color: #ffa500;
+  color: #606c38;
   padding: 10px 0px 10px 10px;
 }
 
@@ -60,7 +61,7 @@ img {
 .bio {
   color: #ffffff;
   font-size: 24px;
-  font-family: 'Work Sans';
+  font-family: Nunito Sans;
  }
  .buttonBox {
    display: flex;
@@ -106,7 +107,7 @@ img {
 
 .mins {
   display: inline-block;
-  font-family: 'Poppins';
+  font-family: Halant;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.3px;
@@ -117,7 +118,7 @@ img {
 }
 
 .description {
-  font-family: 'Work Sans';
+  font-family: Nunito Sans;
   font-size: 14px;
   font-weight: 300;
   line-height: 1.29;
@@ -134,6 +135,10 @@ img {
   object-fit: contain;
   padding: 20px;
 }
+a {
+  color: #dda15e;
+}
+
 
 .container {
   margin: auto;
