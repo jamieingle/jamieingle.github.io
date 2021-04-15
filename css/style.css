@@ -12,7 +12,7 @@ header, footer {
   min-width: 500px;
 }
 header {
-  font-family: Nunito Sans;
+  font-family: 'Nunito Sans';
   color: #fff;
   min-height: 100vh;
   display: flex;
@@ -27,10 +27,9 @@ main {
   justify-content: center;
   align-items: stretch;
   align-content: center;
-  font-family: Nunito Sans;
 }
 h1 {
-  font-family: Halant;
+  font-family: 'Halant';
   font-size: calc(1em + 3vw);
   padding-bottom: .67em;
   border-bottom: 1px solid;
@@ -38,7 +37,7 @@ h1 {
  }
 
 h2 {
-  font-family: Halant;
+  font-family: 'Halant';
   font-size: 18px;
   font-weight: 600;
   letter-spacing: 0.3px;
@@ -61,7 +60,7 @@ img {
 .bio {
   color: #ffffff;
   font-size: 24px;
-  font-family: Nunito Sans;
+  font-family: 'Nunito Sans';
  }
  .buttonBox {
    display: flex;
